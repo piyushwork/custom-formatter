@@ -1,0 +1,14 @@
+<?php
+/**
+ * Implements hook_field_formatter_info().
+ */
+function Formatter_field_formatter_info() {
+  return array(
+    'Custom' => array(
+      'label' => t('Custom Formatter'),
+      'field types' => array('integer'),
+    ),
+  );
+}
+
+?>
